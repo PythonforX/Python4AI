@@ -1,16 +1,21 @@
 import random
 
-options = ['rock', 'paper', 'scissors']
+print("Welcome to Rock-Paper-Scissors!")
+print("Enter 'rock', 'paper', or 'scissors' to play.")
 
-user_input = input("Enter the choice : ")
-computer_choice = random.choice(options)
-print(f"Computer'choice : {computer_choice}")
+user_choice = input("Enter your choice: ").lower()
 
-if user_input == computer_choice:
-    print("it's a tie")
-
-elif (user_input == 'rock' and computer_choice == 'scissors') or (user_input == 'scissors' and computer_choice == 'paper') or (user_input == 'paper' and computer_choice == 'rock'):
-    print("User wins")
-
+if user_choice not in ['rock', 'paper', 'scissors']:
+    print("Invalid choice. Please restart the game and try again.")
 else:
-    print("Computer wins")
+    computer_choice = random.choice(['rock', 'paper', 'scissors'])
+    print(f"Computer chose: {computer_choice}")
+
+    if user_choice == computer_choice:
+        print("It's a tie!")
+    elif (user_choice == 'rock' and computer_choice == 'scissors') or \
+         (user_choice == 'paper' and computer_choice == 'rock') or \
+         (user_choice == 'scissors' and computer_choice == 'paper'):
+        print("You win!")
+    else:
+        print("Computer wins!")
