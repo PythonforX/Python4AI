@@ -1,0 +1,14 @@
+[
+    {
+        "date": "2024-06-29",
+        "description": "salary",
+        "amount": 50000.0,
+        "type": "income"
+    },
+    {
+        "date": "2024-07-01",
+        "description": "rent",
+        "amount": 20000.0,
+        "type": "expense"
+    }
+]

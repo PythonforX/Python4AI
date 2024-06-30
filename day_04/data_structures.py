@@ -1,18 +1,18 @@
-# fruits = ['apple', 'oranges', 'banana']
-# # print(fruits[0])
+fruits = ['apple', 'oranges', 'banana']
+print(fruits[0])
 
-# # fruits[1] = "blueberry"
-# # print(fruits)
+fruits[1] = "blueberry"
+print(fruits)
 
-# fruits.remove('apple')
-# print(fruits)
+fruits.remove('apple')
+print(fruits)
 
 # tuple
-# fruits = ('apple', 'oranges')
-# print(fruits)
+fruits = ('apple', 'oranges')
+print(fruits)
 
-# for fruit in fruits:
-#     print(fruit)
+for fruit in fruits:
+    print(fruit)
 
 # dictionary
 

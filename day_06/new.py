@@ -1,14 +1,9 @@
-import math
+import custom_module as cus
 
-square_root = math.sqrt(25)
-# print(square_root)
-# print(custom_module.pi)
+Area = cus.area(5,10)
+print(f"Area of the rectangle is {Area}")
 
-
-def is_palindrome(s):
-    return s == s[::-1]
-
-print(is_palindrome("hello"))  # This will output: False
+print(f"Value of pi from custom module : {cus.pi}")
 
 
 

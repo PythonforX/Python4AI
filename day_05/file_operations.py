@@ -1,9 +1,9 @@
 # file = open(filename, mode)
 
 #Read
-# with open('pie.txt', 'r') as file:
-#     lines = file.readlines()
-#     print(lines)
+with open('pie.txt', 'r') as file:
+    lines = file.readlines()
+    print(lines)
 
 #Write
 with open('pie.txt', 'a') as file:
