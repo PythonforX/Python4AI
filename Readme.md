@@ -44,16 +44,11 @@ To get started with this repository, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/python-learning-repo.git
-   cd python-learning-repo
+   git clone https://github.com/PythonforX/Python4AI.git
+   cd Python4AI
    ```
 
-2. **Install the required libraries**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Navigate through the topics**:
+2. **Navigate through the topics**:
    - Each topic is covered in a separate folder with relevant examples and exercises.
    - Go through the README file in each folder for detailed instructions and explanations.
 
